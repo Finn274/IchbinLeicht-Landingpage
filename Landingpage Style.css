@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#hero {
+    background: linear-gradient(to right, #ffe6e6, #ffccff);
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    color: #ff4081;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cta-btn {
+    background-color: #ff4081;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #e02a69;
+}
+
+#testimonials .testimonial {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#value-propositions .benefit {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#value-propositions .benefit img {
+    max-width: 50px;
+}
+
+#pure-energy a {
+    text-decoration: none;
+}
+
+#faq .faq-item {
+    margin-top: 20px;
+}
+
+#cta-final {
+    background: #ffccff;
+    text-align: center;
+}
